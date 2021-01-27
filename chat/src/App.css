@@ -1,0 +1,66 @@
+.App{
+    background-color: rgb(189, 238, 238);
+    color: darkcyan;
+}
+.side-panel{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+
+}
+.status{
+    font-size: smaller;
+    font-style: italic;
+    padding: 0.5%;
+    width: fit-content;
+    justify-self: right;
+    margin-bottom: 5%;
+    border: dashed;
+    border-color: darkcyan;
+    background-color: wheat;
+}
+.status:hover{
+    font-size: medium;
+}
+.username-section{
+    margin:1%;
+    border: solid;
+    border-color: darkcyan;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.username{
+    border: solid;
+    width:fit-content;
+    height: auto;
+    padding: 5%;
+    text-align: center;
+    border-color: darkcyan;
+    border-radius: 50%;
+    background-color: wheat;
+}
+.online{
+    margin:1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: wheat;
+    color: darkcyan;
+    padding: 0.5%;
+    border-radius: 5px;
+    border-color: darkcyan;
+    width: fit-content;
+}
